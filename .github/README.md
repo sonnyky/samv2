@@ -8,7 +8,7 @@ CPU **compatible** fork of the official SAMv2 implementation.
 * CPU compatible
 * ships with config files
 * Run image and video inference on CPUs
-* [Example notebooks](../examples/notebooks/) showcasing inference using weights and biases.
+* [Example notebooks](../examples/notebooks/) showcasing inference using weights and biases ![](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-28.svg)
 
 ## Installation
 
