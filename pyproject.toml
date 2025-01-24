@@ -3,10 +3,10 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-description = "CPU compatible fork of the official SAMv2 implementation"
-name = "samv2"
-version = "0.0.4"
-authors = [{ name = "Saurav Maheshkar", email = "sauravvmaheshkar@gmail.com" }]
+description = "CPU compatible fork of the official SAMv2 implementation with Webcam support"
+name = "samv2_webcam"
+version = "0.0.1"
+authors = [{ name = "Sonny Kurniawan", email = "sonny.kurniawan.yap@gmail.com" }]
 readme = ".github/README.md"
 requires-python = ">=3.8"
 keywords = [
@@ -30,8 +30,8 @@ dev = ["black", "isort", "pre-commit>=2.18.0"]
 all = ["samv2[test,dev]"]
 
 [project.urls]
-homepage = "https://github.com/SauravMaheshkar/samv2"
-repository = "https://github.com/SauravMaheshkar/samv2"
+homepage = "https://github.com/sonnyky/samv2"
+repository = "https://github.com/sonnyky/samv2"
 
 [tool.flit.module]
 name = "sam2"

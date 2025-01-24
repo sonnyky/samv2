@@ -1,13 +1,13 @@
 <a href="https://colab.research.google.com/github/SauravMaheshkar/samv2/blob/main/examples/notebooks/samv2_prompted_segmentation_with_wandb_tables.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 [![Build and Tests](https://github.com/SauravMaheshkar/samv2/actions/workflows/ci.yml/badge.svg)](https://github.com/SauravMaheshkar/samv2/actions/workflows/ci.yml) [![](https://img.shields.io/badge/Weights_&_Biases-FFCC33?&logo=WeightsAndBiases&logoColor=black)](https://wandb.ai/sauravmaheshkar/samv2)
 
-CPU **compatible** fork of the official SAMv2 implementation.
+CPU **compatible** fork of the official SAMv2 implementation with webcam support.
 
 ## Features 🚀
 
 * CPU compatible
 * ships with config files
-* Run image and video inference on CPUs
+* Run image and video, and webcam inference on CPUs
 * [Example notebooks](../examples/notebooks/) showcasing inference using weights and biases.
 
 ## Installation
@@ -21,7 +21,7 @@ pip install samv2
 or from the repository:
 
 ```bash
-pip install git+https://github.com/SauravMaheshkar/samv2.git
+pip install git+https://github.com/sonnyky/samv2.git
 ```
 
 ## Usage
