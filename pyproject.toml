@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 description = "CPU compatible fork of the official SAMv2 implementation with Webcam support"
 name = "samv2_webcam"
-version = "0.0.1"
+version = "0.0.3"
 authors = [{ name = "Sonny Kurniawan", email = "sonny.kurniawan.yap@gmail.com" }]
 readme = ".github/README.md"
 requires-python = ">=3.8"
