@@ -15,7 +15,7 @@ CPU **compatible** fork of the official SAMv2 implementation with webcam support
 You can download it from [pypi](https://pypi.org/) using `pip` as follows:
 
 ```bash
-pip install samv2
+pip install samv2-webcam
 ```
 
 or from the repository:
